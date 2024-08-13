@@ -5,7 +5,7 @@ const nextConfig = {
     scrollRestoration: true,
   },
   images: {
-    domains: ['images.unsplash.com','assets.aceternity.com'],
+    domains: ['images.unsplash.com','assets.aceternity.com','images.pexels.com'],
   },
 };
 
