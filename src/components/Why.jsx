@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { InView } from "./ui/InView"
 
  const stats = [
@@ -76,7 +77,7 @@ export default function Why() {
           
               <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
             Our platform offers a comprehensive range of keynotes and sessions tailored to inspire and educate leaders,
-             developers, and end users. Whether you're driving strategic decisions, building innovative solutions, or utilizing cutting-edge technology,
+             developers, and end users. Whether you&apos;re driving strategic decisions, building innovative solutions, or utilizing cutting-edge technology,
               our curated content delivers valuable insights and practical knowledge to enhance your skills and elevate your impact in the digital landscape.
              Join us to stay ahead of industry trends, learn from experts, and connect with a community of forward-thinkers.
               </p>
@@ -85,7 +86,7 @@ export default function Why() {
           </div>
           <div  className="flex justify-center">
             
-          <img
+          <Image
             src="https://images.pexels.com/photos/3321799/pexels-photo-3321799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=1260&dpr=1 "
             alt="Product screenshot"
             className="rounded-lg"
@@ -128,7 +129,7 @@ export default function Why() {
             </div>
           </div>
           <div className="flex items-start justify-end lg:order-first">
-            <img
+            <Image
               src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Product screenshot"
               className="w-[40rem] max-w-none rounded-xl  ring-1 ring-gray-400/10 sm:w-[45 rem]"
@@ -159,7 +160,7 @@ export default function Why() {
           transition={{ duration: 0.3, ease: 'easeInOut' }}>
         <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
            At Zep Research, we believe in the power of collaboration and networking to drive innovation and growth.
-            Our e-learning platform is not just a place to acquire knowledge; it's a vibrant community where data science and AI enthusiasts come together to share ideas,
+            Our e-learning platform is not just a place to acquire knowledge; it&apos;s a vibrant community where data science and AI enthusiasts come together to share ideas,
              solve problems, and create new opportunities. Engage with industry experts, connect with like-minded peers, 
              and participate in collaborative projects that enhance your learning experience and professional network.
             Join us and be part of a community where collaboration fuels success.</p>
@@ -168,7 +169,7 @@ export default function Why() {
           </div>
           <div  className="flex justify-center">
             
-          <img
+          <Image
             src="https://images.pexels.com/photos/1181609/pexels-photo-1181609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Product screenshot"
             className="w-[40rem] max-w-none rounded-xl  ring-1 ring-gray-400/10 sm:w-[45 rem]"
